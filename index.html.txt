@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jazz, Dance and Poetry</title>
+  <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#chi-siamo">Chi siamo</a>
+      <a href="#gli-artisti">Gli artisti</a>
+      <a href="#musica">Musica</a>
+      <a href="#danza">Danza</a>
+      <a href="#poesia">Poesia</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?q=80&w=1600&auto=format&fit=crop" alt="Cielo con nuvole (immagine hero)">
+      <h1>Jazz, Dance and Poetry</h1>
+      <blockquote>
+        “Impeto tuo sarà libero,<br>
+        nodi sciolti<br>
+        malgrado, grido muto, ora sia.”
+        <footer>IASPIS ROSSO, José Carlos Morgana, 2025</footer>
+      </blockquote>
+      <div class="buttons">
+        <a href="#contatti" class="btn-primary">Contattaci</a>
+        <a href="#chi-siamo" class="btn-secondary">Scopri di più</a>
+      </div>
+    </section>
+
+    <section id="chi-siamo">
+      <h2>Chi siamo</h2>
+      <p>L’incontro tra gli artisti del collettivo <strong>Jazz, Dance and Poetry</strong> nasce, nel 2025, dall’esigenza di espressione della musicista Paola Aurnia...</p>
+      <p>Una ricerca verso un percorso condiviso tra musica, danza e poesia...</p>
+      <p>Un lavoro contemplativo e riflessivo alla ricerca di una visione...</p>
+      <p>Un percorso visivo alla ricerca dell’armonia tra l'uomo e la natura...</p>
+    </section>
+
+    <section id="gli-artisti">
+      <h2>Gli artisti</h2>
+      <p>Il nostro collettivo riunisce talenti che condividono la passione per l'espressione artistica multidisciplinare...</p>
+      <ul>
+        <li><a href="#musica">Musica</a></li>
+        <li><a href="#danza">Danza</a></li>
+        <li><a href="#poesia">Poesia</a></li>
+      </ul>
+    </section>
+
+    <section id="musica">
+      <h2>Musica</h2>
+      <p>La formazione musicale è un ensemble jazz formato da pianoforte, contrabbasso...</p>
+      <p><strong>AI:</strong> La musica jazz esplora melodie, improvvisazioni e ritmi...</p>
+      <p>Il gruppo di musicisti è coordinato da <a href="#bio-paola">Paola Aurnia</a>...</p>
+      <ul>
+        <li>Paola Aurnia, voce e pianoforte</li>
+        <li>Claudio D'Arrigo, batteria</li>
+        <li>Fulvio Epifani, pianoforte</li>
+        <li>Roberta Giancristofaro, voce</li>
+        <li>Matteo Marseglia, sax tenore</li>
+        <li>Chiara Piccione, voce</li>
+        <li>Giovanni Scamardella, contrabbasso</li>
+      </ul>
+      <section id="bio-paola">
+        <h3>Biografia di Paola Aurnia</h3>
+        <p>Si diploma in pianoforte classico, didattica della musica, canto jazz e composizione jazz presso il Conservatorio di Musica Santa Cecilia di Roma...</p>
+      </section>
+    </section>
+
+    <section id="danza">
+      <h2>Danza</h2>
+      <p>L’aspetto coreutico è a cura dei tre danzatori e coreografi professionisti...</p>
+      <ul>
+        <li><a href="#bio-gloria">Gloria Carobini</a></li>
+        <li><a href="#bio-annarita">Annarita Pasculli</a></li>
+        <li><a href="#bio-giorgio">Giorgio Loffredo</a></li>
+      </ul>
+    </section>
+
+    <section id="poesia">
+      <h2>Poesia</h2>
+      <p>Josè Carlos Morgana, anima poetica del collettivo, è autore delle poesie...</p>
+      <section id="bio-jose">
+        <h3>Biografia di José Carlos Morgana</h3>
+        <p>Autore italo-venezuelano di poesia e prosa. Numerosi riconoscimenti e premi...</p>
+      </section>
+    </section>
+
+    <section id="contatti">
+      <h2>Contatti</h2>
+      <input type="text" id="nome" placeholder="Il tuo nome">
+      <button onclick="saluto()">Invia</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Jazz, Dance and Poetry</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
